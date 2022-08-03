@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #0B3D91;
+  font-size: 2vw;
+}
+.banner {
+  width: 100%;
+}
+
+.bg1,
+.bg2,
+.bg3,
+.bg6,
+.bg8,
+.bg9,
+.bg10 {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.bg4,
+.bg5,
+.bg7 {
+  width: 50%;
+  position: relative;
+  z-index: 1;
+}
+.center-text-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vw;
+}
+.center-text {
+  margin: auto;
+  padding: 10vw;
+  text-align: justify;
+  vertical-align: middle;
+  /* font-size: x-large; */
+}
+.slide-up {
+  margin-top: -3vw;
+}
+.block2 {
+  width: 100%;
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vw;
+  background-color: aqua;
+}
+.block2-text-wrapper {
+  width: 70%;
+  text-align: justify;
+  vertical-align: middle;
+}
+.text2 {
+  padding: 8vw 4vw 8vw 8vw;
+  /* max-width: 1000px; */
+  background-color: white;
+  /* font-size:large; */
+}
+.sep {
+  width: 100%;
+  height: 1vw;
+  background-color: aqua;
+}
+
+.half-half {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.half-half-text-wrapper {
+  width: 50%;
+  vertical-align: middle;
+}
+
+.half-half-right-text {
+  padding: 4vw;
+  max-width: 1000px;
+  background-color: white;
+  text-align: left;
+  /* font-size:large; */
+}
+
+.half-half-left-text {
+  padding: 4vw;
+  text-align: right;
+  /* max-width: 1000px; */
+  background-color: white;
+  /* font-size:large; */
+}
+
+
+.rhombus-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0px;
+}
+.rhombus {
+  width: 8vw;
+  height: 8vw;
+  margin-top: -4vw;
+  margin-bottom: -4vw;
+  z-index: 10;
+}
+
+.break {
+  width: 100%;
+  height: 10vw;
+}
+
+form {
+  width:100%;
+  padding: 10vw;
+}
+
+.data {
+  border-radius: 3vw;
+  width: 30vw;
+  border: 0.1vw solid aqua;
+  margin-top: 1vw;
+  padding: 1vw 2vw;
+  color: #0B3D91;
+}
+.form-break {
+  width: 100%;
+  height: 5vw;
+}
+
+textarea.data {
+  height: 30vw;
+  width: 80vw;
+  resize: none;
+}
+.input-title {
+  padding-left: 1vw;
+  font-size: 2vw;
+}
+
+.submit {
+  background-color: transparent;
+  border-color: transparent;
+  color: #0B3D91;
+  padding-left: 1vw;
+  font-size: 2vw;
+}
