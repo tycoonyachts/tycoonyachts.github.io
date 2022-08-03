@@ -1,12 +1,15 @@
 html {
   scroll-behavior: smooth;
   width: 100%;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
   color: #0B3D91;
   font-size: 2vw;
+  overflow-x: hidden;
 }
 .banner {
   width: 100%;
