@@ -130,6 +130,9 @@ body {
 form {
   width:100%;
   padding: 10vw;
+  margin-top: -13vw;
+  z-index: 10;
+  position: relative;
 }
 
 .data {
@@ -139,6 +142,9 @@ form {
   margin-top: 1vw;
   padding: 1vw 2vw;
   color: #0B3D91;
+}
+.data:focus {
+  border: 0.1vw solid #0B3D91;
 }
 .form-break {
   width: 100%;
@@ -155,10 +161,16 @@ textarea.data {
   font-size: 2vw;
 }
 
+.center-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .submit {
   background-color: transparent;
   border-color: transparent;
   color: #0B3D91;
-  padding-left: 1vw;
   font-size: 2vw;
+  vertical-align: middle;
 }
