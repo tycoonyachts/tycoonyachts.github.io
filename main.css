@@ -11,25 +11,163 @@ body {
   font-size: 2vw;
   overflow-x: hidden;
 }
+.top-banner {
+  position: relative;
+}
 .banner {
   width: 100%;
+  position: relative;
+}
+.back {
+  width: 3.2vw;
+  height: 2.9vw;
+  background-image: url("./images/back.png");
+  background-size: 100% 100%;
+}
+.back.center {
+  margin: auto;
+}
+.back.left {
+  margin-left: 6vw;
+}
+.back.right {
+  margin-right: 6vw;
+}
+.back-holder {
+  margin-top: 3vw;
+}
+.back-holder.fix-right-bottom {
+  position: absolute;
+  right: 5%;
+  margin-top: 3vw;
+}
+.top-banner #about-us-btn {
+  display: block;      
+  position: absolute;
+  top: 73%; left: 25%; width: 8%; height: 11%;
+  /* background-color: #88888888; */
+}
+.top-banner #yacht-management-btn {
+  display: block;      
+  position: absolute;
+  top: 73%; left: 33.5%; width: 14%; height: 11%;
+  /* background-color: #88888888; */
+}
+.top-banner #crew-services-btn {
+  display: block;      
+  position: absolute;
+  top: 73%; left: 48%; width: 10.5%; height: 11%;
+  /* background-color: #88888888; */
+}
+.top-banner #payment-btn {
+  display: block;      
+  position: absolute;
+  top: 73%; left: 59%; width: 7.5%; height: 11%;
+  /* background-color: #88888888; */
+}
+.top-banner #contact-us-btn {
+  display: block;      
+  position: absolute;
+  top: 73%; left: 67%; width: 8%; height: 11%;
+  /* background-color: #88888888; */
 }
 
-.bg1,
-.bg2,
-.bg3,
-.bg6,
-.bg8,
-.bg9,
+.about-us-graphic,
+.yacht-mgmt,
+.yacht-mgmt-graphic,
+.crew-services,
+.payment,
+.contact-us,
 .bg10 {
   width: 100%;
   position: relative;
   z-index: 2;
 }
 
-.bg4,
-.bg5,
-.bg7 {
+
+@media only screen and (max-width: 600px) {
+  .about-us-content,
+  .yacht-management-content {
+    position: relative;
+  }
+  body {
+    font-size: 3vw;
+  }
+  .back {
+    width: 6.4vw;
+    height: 5.8vw;
+  }
+  .yacht-mgmt {
+    z-index: 4;
+  }
+  #about-us, .block2, .half-half-text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    background-color: #ffffffb0;
+  }
+  .yacht-management-content .block2 {
+    background-color: #ffffffb0;
+  }
+  .block2 .block2-text-wrapper {
+    width: 100%;
+    z-index: 2;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .block2 .block2-text-wrapper .text2 {
+    background-color: transparent;
+    padding: 14vw 10vw 10vw 10vw;
+  }
+  .yacht-mgmt-graphic {
+    height: 100vw;
+    object-fit: cover;
+  }
+  .half-half {
+    position: relative;
+  }
+  .half-half .half-half-text-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .half-half .half-half-text-wrapper .half-half-left-text,
+  .half-half .half-half-text-wrapper .half-half-right-text {
+    background-color: transparent;
+  }
+  .half-half .yacht-mgmt-graphic-2,
+  .half-half .yacht-mgmt-graphic-3,
+  .half-half .crew-services-graphic {
+    width: 100%;
+  }
+  form .half-half {
+    position: relative;
+    flex-direction: column;
+    align-items: start;
+  }
+  form .half-half .half-half-text-wrapper {
+    position: relative;
+    align-items: start;
+    flex-direction: column;
+  }
+  .responsive-small {
+    display: block !important;
+  }
+
+  .responsive-big {
+    display: none;
+  }
+}
+.yacht-mgmt-graphic-2,
+.yacht-mgmt-graphic-3,
+.crew-services-graphic {
   width: 50%;
   position: relative;
   z-index: 1;
@@ -38,6 +176,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: 40vw;
 }
@@ -128,8 +267,8 @@ body {
 }
 
 form {
-  width:100%;
-  padding: 10vw;
+  width:80%;
+  padding: 10vw 10vw 0 10vw;
   margin-top: -13vw;
   z-index: 10;
   position: relative;
@@ -162,7 +301,7 @@ textarea.data {
 }
 
 .center-wrapper {
-  width: 80%;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,4 +312,7 @@ textarea.data {
   color: #0B3D91;
   font-size: 2vw;
   vertical-align: middle;
+}
+.responsive-small {
+  display: none;
 }
