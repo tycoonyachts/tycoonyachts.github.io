@@ -1,4 +1,18 @@
 @media only screen and (max-width: 600px) {
+
+  .logo {
+    width: 70%;
+    left: 15vw;
+    top: -1.5vw;
+    position: absolute;
+  }
+  .top-banner #about-us-btn,
+  .top-banner #yacht-management-btn,
+  .top-banner #crew-services-btn,
+  .top-banner #payment-btn,
+  .top-banner #contact-us-btn {
+    font-size: 2.5vw;
+  }
   .about-us-content,
   .yacht-management-content {
     position: relative;
