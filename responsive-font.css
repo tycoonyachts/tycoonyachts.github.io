@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+
+  .logo {
+    width: 70%;
+    left: 15vw;
+    top: -1.5vw;
+    position: absolute;
+  }
+  .top-banner #about-us-btn,
+  .top-banner #yacht-management-btn,
+  .top-banner #crew-services-btn,
+  .top-banner #payment-btn,
+  .top-banner #contact-us-btn {
+    font-size: 2.5vw;
+  }
+  body {
+    font-size: 2.3vw;
+  }
+  .back {
+    width: 6.4vw;
+    height: 5.8vw;
+  }
+  .half-half .half-half-right-text,
+  .half-half .half-half-left-text {
+    padding: 2vw;
+  }
+  form .input-title,
+  form .submit {
+
+    font-size: 3vw;
+  }
+  form input.data {
+    width: 35vw;
+  }
+  .center-text-wrapper .center-text {
+    font-size: 3vw;
+  }
+}
