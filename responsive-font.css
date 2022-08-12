@@ -27,12 +27,12 @@
   form .input-title,
   form .submit {
 
-    font-size: 3vw;
+    font-size: 2.2vw;
   }
   form input.data {
     width: 35vw;
   }
   .center-text-wrapper .center-text {
-    font-size: 3vw;
+    font-size: 2.2vw;
   }
 }
