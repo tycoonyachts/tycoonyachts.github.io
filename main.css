@@ -20,7 +20,7 @@ body {
   font-family: "FRABK", Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
   color: #0052a1;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   overflow-x: hidden;
 }
 .top-banner {
@@ -84,7 +84,7 @@ body {
   color: white;
   padding-left: 1vw;
   padding-right: 1vw;
-  font-size: 1.2vw;
+  /* font-size: 1.3vw; */
 }
 
 .about-us-graphic,
@@ -127,7 +127,6 @@ body {
   padding: 10vw;
   text-align: justify;
   vertical-align: middle;
-  /* font-size: x-large; */
 }
 .slide-up {
   margin-top: -3vw;
@@ -150,7 +149,6 @@ body {
   padding: 8vw 4vw 8vw 8vw;
   /* max-width: 1000px; */
   background-color: white;
-  /* font-size:large; */
 }
 .sep {
   width: 100%;
@@ -181,7 +179,6 @@ body {
   max-width: 1000px;
   background-color: white;
   text-align: left;
-  /* font-size:large; */
 }
 
 .half-half-left-text {
@@ -189,7 +186,6 @@ body {
   text-align: right;
   /* max-width: 1000px; */
   background-color: white;
-  /* font-size:large; */
 }
 
 
