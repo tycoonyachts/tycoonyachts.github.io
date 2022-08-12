@@ -11,7 +11,7 @@
   .top-banner #crew-services-btn,
   .top-banner #payment-btn,
   .top-banner #contact-us-btn {
-    /* font-size: 2.2vw; */
+    font-size: 2.2vw;
   }
   body {
     font-size: 2.2vw;
@@ -33,6 +33,6 @@
     width: 35vw;
   }
   .center-text-wrapper .center-text {
-    /* font-size: 2.2vw; */
+    font-size: 2.2vw;
   }
 }
